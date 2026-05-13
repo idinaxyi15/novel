@@ -4,10 +4,10 @@
 define gg = Character('[viname]', color="#9d00c19a", cps=25)
 
 #-----------нпс
-define mother = Character('Мать', color="#780000ff", cps=25)
-define father = Character('Отец', color="#0d006bff", cps=25)
-define Holy_Mother = Character('Святая Мать', color="#3b0000ff", cps=25 )
-define Holy_Father = Character('Святой Отец', color="#0a003aff", cps=25)
+define mother = Character('Мать', color="#8c0000ff", cps=25)
+define father = Character('Отец', color="#0d0073ff", cps=25)
+define Holy_Mother = Character('Игуменья', color="#3b0000ff", cps=25 )
+define Holy_Father = Character('Игумен', color="#0a003aff", cps=25)
 
 
 define alter = Character('???', color="#a0a0a0", cps=25, what_italic=True)
@@ -22,4 +22,4 @@ label start:
     if not viname:
         $ viname = 'Маргарита'
     
-    jump glava1_nachalo
+    jump glava1_beginning
