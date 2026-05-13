@@ -5,7 +5,7 @@ label glava1_beginning:
 #    gg 'говорит гг'
 #    mother ' б'
 #    father 'а '
-#   Holy_Mother ' б'
+#    Holy_Mother ' б'
 #    Holy_Father 'а '
 
 #--------ночь, сбор вещей
