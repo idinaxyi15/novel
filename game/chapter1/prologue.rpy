@@ -9,7 +9,15 @@ label glava1_beginning:
 #    Holy_Father 'а '
 
 #--------ночь, сбор вещей
-    scene scene bg room_in_the_house
+
+    scene bg room house with Dissolve(0.5)
+
+    
+    #image bg room in the house = "images/bg room in the house.jpg"       #with dissolve(0.5)
+
+    #show coldel prob (перс появился)
+
+    #hide prob (перс исчезнет)
 
 
     'Дождь начался ещё ночью. Именно тогда мне пришлось собирать свои драгоценные и памятные вещи по всему дому.'
