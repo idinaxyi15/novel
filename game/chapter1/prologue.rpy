@@ -10,7 +10,8 @@ label glava1_beginning:
 
 #--------ночь, сбор вещей
 
-    scene bg room house with Dissolve(0.5)
+#   scene bg_room_house with Dissolve(0.5)
+    scene bg_fon
 
     
     #image bg room in the house = "images/bg room in the house.jpg"       #with dissolve(0.5)
