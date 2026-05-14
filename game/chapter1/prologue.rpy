@@ -1,4 +1,6 @@
 #---------ДЕНЬ 1 — «ДОБРО ПОЖАЛОВАТЬ»
+image bg_fon = "bg_fon.jpeg"
+
 label glava1_beginning:
 #    'начало'
 #    show eileen happy with moveinleft - появление персонажа (картинка)
