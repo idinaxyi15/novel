@@ -12,7 +12,7 @@
 ##
 ## Символы "_()", окружающие название, отмечают его как пригодное для перевода.
 
-define config.name = _("Последняя молитва")
+define config.name = _("The last prayer")
 
 
 ## Определяет, показывать ли заголовок, данный выше, на экране главного меню.
@@ -37,7 +37,7 @@ define gui.about = _p("""
 ## постройке дистрибутивов. Оно должно содержать текст формата ASCII и не должно
 ## содержать пробелы, двоеточия и точки с запятой.
 
-define build.name = "Последняя молитва"
+define build.name = "Thelastprayer"
 
 
 ## Звуки и музыка ##############################################################
@@ -144,7 +144,7 @@ default preferences.afm_time = 15
 ## Этот параметр обычно не должен изменяться, а если и изменился, должен быть
 ## текстовой строчкой, а не выражением.
 
-define config.save_directory = "Последняя молитва-1778579961"
+define config.save_directory = "Thelastprayer-1778784338"
 
 
 ## Иконка ######################################################################
@@ -197,12 +197,6 @@ init python:
     build.documentation('*.html')
     build.documentation('*.txt')
 
-
-init python:
-    def flash_text(message, duration=2.5, size=60):
-        renpy.show('flash_screen', what=Text(message, size=size, color='#FFFFFF', text_align=0.5, xalign=0.5, yalign=0.5), zorder=1000, layer='screens')
-        renpy.pause(duration)
-        renpy.hide('flash_screen', layer='screens')
 
 ## Для совершения покупок в приложении требуется лицензионный ключ Google Play.
 ## Его можно найти в консоли разработчика Google Play в разделе "Монетизация" >
