@@ -3,12 +3,15 @@
 #-------------гг
 define gg = Character('[viname]', color="#9d00c19a", cps=25)
 
-#-----------нпс
+#-----------НПС
+#------родители
 define mother = Character('Мать', color="#8c0000ff", cps=25)
 define father = Character('Отец', color="#0d0073ff", cps=25)
+#------антагонисты
 define Holy_Mother = Character('Игуменья', color="#3b0000ff", cps=25 )
 define Holy_Father = Character('Игумен', color="#0a003aff", cps=25)
-
+define Holy_Father = Character('Кайн', color="#003743ff", cps=25)
+define Holy_Father = Character('Авелина', color="#420043ff", cps=25)
 
 define alter = Character('???', color="#a0a0a0", cps=25, what_italic=True)
 
