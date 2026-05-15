@@ -22,4 +22,4 @@ label start:
     if not viname:
         $ viname = 'Маргарита'
     
-    jump glava1_beginning
+jump glava1_beginning
