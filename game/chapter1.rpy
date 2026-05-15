@@ -1,4 +1,7 @@
-image bg_fon = "bg_fon.jpg"
+#----все фоны в этой главе
+image bg_room_night = "bg_room_night.jpg"
+image bg_room_morning = "bg_room_morning.jpg"
+image bg_car = "bg_fon.car"
 
 label glava1_beginning:
 #    'начало'
